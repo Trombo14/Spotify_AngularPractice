@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --color-1:#ffffff;
+    --animation: 200ms;
+}
+
+html,
+body {
+    margin: 0;
+}
