@@ -21,7 +21,8 @@
       "@core/*": ["src/app/modules/core/*"],
       "@auth/*": ["src/app/modules/auth/*"],
       "@home/*": ["src/app/modules/core/*"],
-      "@track/*": ["src/app/modules/auth/*"]
+      "@track/*": ["src/app/modules/auth/*"],
+      "@module/*": ["src/app/modules/*"]
     },
     "lib": [
       "es2018",

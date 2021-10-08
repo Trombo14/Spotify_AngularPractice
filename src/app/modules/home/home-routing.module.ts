@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 
 const routes: Routes = [
- {
-   path: '',
-   component: HomepageComponent
- }
+  {
+    path: 'track',
+    loadChildren:() => import('@module/track/track.module').then(m =>m.TrackModule)
+  }
 ];
 
 @NgModule({
